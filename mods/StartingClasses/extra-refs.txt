@@ -1,0 +1,6 @@
+# Extra game-shipped DLLs that StartingClasses needs to compile.
+# Copy these from <Stolen Realm>/StolenRealm_Data/Managed/ to build/game-assemblies/.
+# (These are Burst2Flame's / 3rd-party IP — not redistributed in this repo.)
+Sirenix.Serialization.dll
+Sirenix.OdinInspector.Attributes.dll
+Unity.TextMeshPro.dll
