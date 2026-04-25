@@ -62,7 +62,7 @@ Active. See [docs/ROADMAP.md](docs/ROADMAP.md) for what's planned.
 
 ## Credits
 
-Built by <YOUR_NAME>, with engineering help from Claude (Anthropic).
+Built by ZeroXephon, with engineering help from Claude (Anthropic).
 
 ## Disclaimer
 
