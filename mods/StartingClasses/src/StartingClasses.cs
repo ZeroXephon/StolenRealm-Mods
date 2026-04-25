@@ -170,14 +170,11 @@ public class StartingClassesPlugin : BaseUnityPlugin
         def.StatBonuses["Might"] = 14; def.StatBonuses["Dexterity"] = 12; def.StatBonuses["Intelligence"] = 4;
         def.StatBonuses["Vitality"] = 10; def.StatBonuses["Reflex"] = 10;
         def.Equipment["Armor"]    = new Guid("352e9ddc-4370-4b25-b72a-371b28c02a70"); // Canary Coat
-        def.Equipment["MainHand"] = new Guid("38b4a977-74d1-4649-a6b5-d0da5fae5650"); // Dragon Fist
+        def.Equipment["MainHand"] = new Guid("8a107032-de45-4c68-b1ec-c66e5ddc741d"); // Tonfa
+        def.PassiveBonuses["DamageMod"] = 1000f;
         def.StartingSkillGuids.Add(new Guid("1e089acc-84fc-4d8f-8432-915e5daa7d9d")); // One Punch Monk
         def.StartingSkillGuids.Add(new Guid("72730fff-2170-46e2-9a5a-3c26c1baee98")); // Strength
         def.StartingSkillGuids.Add(new Guid("eedc261a-8bc6-48f8-91b2-e1e0587b022e")); // Focused Strike
-        def.StartingSkillGuids.Add(new Guid("126bb043-6548-4075-bca8-77e5f90fe992")); // Hot Head I
-        def.StartingSkillGuids.Add(new Guid("72a6afb2-c7e6-4918-a1d3-4f08680e2b73")); // Hot Head II
-        def.StartingSkillGuids.Add(new Guid("a151ffba-bc8a-4e8c-95c2-a209e2e3ac98")); // Warmonger I
-        def.StartingSkillGuids.Add(new Guid("7f5cbda1-f1fd-4f71-9347-e00ffbf5e96b")); // Warmonger II
         def.StartingSkillGuids.Add(new Guid("b22fceef-4110-46ee-a9d2-12e9dd9f8d82")); // Light's Strength
         ClassDefs.Add(def);
 
